@@ -44,12 +44,12 @@ const PROJECTS: Project[] = [
         link: "https://bazardor-a07.vercel.app/",
     },
     {
-        title: "Blog Website",
-        desc: "A responsive blog platform with article cards, categories and individual post pages.",
+        title: "FavBook - Online Library",
+        desc: "A responsive blog platform with article cards, categories, and individual post pages.",
         longDesc:
-            "A clean and responsive blogging platform designed with category filtering, responsive article cards, and detailed reading layouts for tech enthusiasts and content creators.",
+            "FavBook is a full-stack digital library platform built with Next.js 16, Express, and MongoDB Atlas, featuring real-time copy tracking, atomic loan management ($inc), and Google/GitHub OAuth.",
         img: "/project-5.png",
-        link: "#",
+        link: "https://favbook-a08.vercel.app/",
     },
 ];
 
