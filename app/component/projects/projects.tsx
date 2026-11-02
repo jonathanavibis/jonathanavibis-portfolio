@@ -45,7 +45,7 @@ const PROJECTS: Project[] = [
     },
     {
         title: "FavBook - Online Library",
-        desc: "A responsive blog platform with article cards, categories, and individual post pages.",
+        desc: "A modern library management web app featuring atomic book borrowing with zero-stock safeguards, in-browser image optimization, and secure multi-provider authentication.",
         longDesc:
             "FavBook is a full-stack digital library platform built with Next.js 16, Express, and MongoDB Atlas, featuring real-time copy tracking, atomic loan management ($inc), and Google/GitHub OAuth.",
         img: "/project-5.png",
