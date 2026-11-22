@@ -12,28 +12,36 @@ interface Project {
 
 const PROJECTS: Project[] = [
     {
-        title: "Portfolio Website",
-        desc: "A responsive personal portfolio website built with HTML, CSS, JavaScript, and TypeScript.",
+        title: "Zaraz.app - Daraz Inspired E-Commerce Platform",
+        desc: "A modern, high-performance Bangladeshi e-commerce shopping platform featuring brand authentic stores, coupon discounts, and instant express delivery.",
         longDesc:
-            "A personal responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS. Features interactive modern UI components, sleek dark mode aesthetics, and dynamic showcase sections.",
-        img: "/project-1.png",
-        link: "https://webjonathan.netlify.app/",
+            "Zaraz.app is a full-scale e-commerce web platform inspired by Daraz, built with React, Next.js, and Tailwind CSS. It delivers a fast, seamless shopping experience featuring official brand store showcases, interactive category browsing, voucher discounts (ZARAZ100), product filters, cart management, and real-time order tracking.",
+        img: "/project-6.jpg",
+        link: "https://zaraz-shopping.vercel.app",
     },
     {
-        title: "Dev-Stack",
-        desc: "A modern, scalable web development stack leveraging React for component-driven interfaces, Tailwind CSS and DaisyUI for responsive styling.",
+        title: "Zaraz Admin Panel - Backend Administrator Portal",
+        desc: "A mission-control administrator portal and backend monitoring system with real-time server telemetry, MongoDB Atlas sync, and product management.",
         longDesc:
-            "The Dev Stack Builder application is constructed using a robust and production-ready modern web stack designed for optimal developer experience and user performance. At its core, React drives a modular, component-based UI architecture, ensuring seamless dynamic rendering and state management. Styling is handled via Tailwind CSS alongside DaisyUI.",
-        img: "/project-2.png",
-        link: "https://dev-stack-silk.vercel.app/",
+            "Zaraz Admin Panel is a dedicated backend control center for the Zaraz e-commerce ecosystem, powered by Node.js, Express, and MongoDB Atlas. Features live server telemetry (CPU/RAM metrics, event loop latency), instant revalidation, two-way database synchronization, catalog DB and auth vault monitoring, active node cluster oversight, and comprehensive order logistics tracking.",
+        img: "/project-7.jpg",
+        link: "https://zaraz-server30.vercel.app",
     },
     {
-        title: "FitTrack - Modern Fitness & Workout Logging Application",
-        desc: "A modern, sleek fitness management web application for logging workouts, tracking exercise sets, and planning routines.",
+        title: "WedPlan - Luxury Wedding Planning Portal",
+        desc: "An all-in-one role-based wedding marketplace connecting couples with verified wedding venues, photographers, florists, and stylists.",
         longDesc:
-            "FitTrack is a modern and sleek fitness management web application built with Next.js and Tailwind CSS. It empowers fitness enthusiasts to plan custom workout routines, meticulously log exercise sets, and track workout progress through an interactive visual library.",
-        img: "/project-3.png",
-        link: "https://fitlog-a06.vercel.app/",
+            "WedPlan is a modern role-based wedding ecosystem and marketplace built with Next.js (App Router, TypeScript), Tailwind CSS, and Framer Motion. It enables couples to discover, compare, and book verified wedding services, while providing specialized dashboards for Customers, Vendors, and Administrators, complete with direct vendor messaging and verified booking workflows.",
+        img: "/project-8.jpg",
+        link: "https://wedplan-a09.vercel.app",
+    },
+    {
+        title: "FavBook - Online Library",
+        desc: "A modern library management web app featuring atomic book borrowing with zero-stock safeguards, in-browser image optimization, and secure multi-provider authentication.",
+        longDesc:
+            "FavBook is a full-stack digital library platform built with Next.js 16, Express, and MongoDB Atlas, featuring real-time copy tracking, atomic loan management ($inc), and Google/GitHub OAuth.",
+        img: "/project-5.png",
+        link: "https://favbook-a08.vercel.app/",
     },
     {
         title: "Bazar Dor - Daily Commodity Price Tracker",
@@ -44,12 +52,28 @@ const PROJECTS: Project[] = [
         link: "https://bazardor-a07.vercel.app/",
     },
     {
-        title: "FavBook - Online Library",
-        desc: "A modern library management web app featuring atomic book borrowing with zero-stock safeguards, in-browser image optimization, and secure multi-provider authentication.",
+        title: "FitTrack - Modern Fitness & Workout Logging Application",
+        desc: "A modern, sleek fitness management web application for logging workouts, tracking exercise sets, and planning routines.",
         longDesc:
-            "FavBook is a full-stack digital library platform built with Next.js 16, Express, and MongoDB Atlas, featuring real-time copy tracking, atomic loan management ($inc), and Google/GitHub OAuth.",
-        img: "/project-5.png",
-        link: "https://favbook-a08.vercel.app/",
+            "FitTrack is a modern and sleek fitness management web application built with Next.js and Tailwind CSS. It empowers fitness enthusiasts to plan custom workout routines, meticulously log exercise sets, and track workout progress through an interactive visual library.",
+        img: "/project-3.png",
+        link: "https://fitlog-a06.vercel.app/",
+    },
+    {
+        title: "Dev-Stack",
+        desc: "A modern, scalable web development stack leveraging React for component-driven interfaces, Tailwind CSS and DaisyUI for responsive styling.",
+        longDesc:
+            "The Dev Stack Builder application is constructed using a robust and production-ready modern web stack designed for optimal developer experience and user performance. At its core, React drives a modular, component-based UI architecture, ensuring seamless dynamic rendering and state management. Styling is handled via Tailwind CSS alongside DaisyUI.",
+        img: "/project-2.png",
+        link: "https://dev-stack-silk.vercel.app/",
+    },
+    {
+        title: "Portfolio Website",
+        desc: "A responsive personal portfolio website built with HTML, CSS, JavaScript, and TypeScript.",
+        longDesc:
+            "A personal responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS. Features interactive modern UI components, sleek dark mode aesthetics, and dynamic showcase sections.",
+        img: "/project-1.png",
+        link: "https://webjonathan.netlify.app/",
     },
 ];
 

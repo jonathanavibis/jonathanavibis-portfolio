@@ -72,7 +72,7 @@ export default function Home() {
             {/* Quick Metrics Strip */}
             <div className="my-8 grid grid-cols-3 gap-3.5 max-w-[500px] mx-auto md:mx-0">
               <div className="rounded-2xl border border-white/10 bg-[#141414]/50 p-3.5 text-center md:text-left backdrop-blur-md shadow-sm">
-                <p className="text-2xl font-black text-[#00ffaa] sm:text-3xl">4+</p>
+                <p className="text-2xl font-black text-[#00ffaa] sm:text-3xl">8+</p>
                 <p className="text-[11px] text-[#aaaaaa] uppercase tracking-wider font-semibold mt-0.5">Projects Done</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-[#141414]/50 p-3.5 text-center md:text-left backdrop-blur-md shadow-sm">
